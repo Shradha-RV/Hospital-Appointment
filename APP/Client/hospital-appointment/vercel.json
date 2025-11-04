@@ -1,6 +1,7 @@
 {
-  "buildCommand": "nvm install 18 && nvm use 18 && npm install && npm run build",
-  "installCommand": "npm install",
-  "outputDirectory": "build",
-  "framework": "create-react-app"
+  "build": {
+    "env": {
+      "NODE_VERSION": "18"
+    }
+  }
 }
